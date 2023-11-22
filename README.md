@@ -38,6 +38,10 @@ Moreno has assigned you the first question to answer: How do annual members and 
 
 # Prepare
 
+## Expected Deliverable
+- A clear statement of the business task
+
+## Deliverable 
 From [divvy-tripdata](https://divvy-tripdata.s3.amazonaws.com/index.html), I used trip data from January 2022 to December 2022. The data has been made available by Motivate International Inc. under this [license](https://divvybikes.com/data-license-agreement).
 
 This is public data that you can use to explore how different customer types are using Cyclistic bikes. But note that data-privacy issues prohibit you from using riders’ personally identifiable information. This means that you won’t be able to connect pass purchases to credit card numbers to determine if casual riders live in the Cyclistic service area or if they have purchased multiple single passes.
@@ -60,3 +64,6 @@ The following files were used:
 - 202212-divvy-tripdata.csv
 
 # Process
+
+## Expected Deliverable
+- A description of all data sources used
