@@ -76,3 +76,9 @@ The following files were used:
 ## Deliverable
 For the cleaning process, I used R. It has a wide range of tools for data manipulation and transformation. The dplyr packages, for instance, offer a convenient and expressive syntax for filtering, summarizing, and reshaping data, which can be advantageous for certain data processing tasks.
 
+After loading the files onto RStudio, I checked the structure of each dataframe with the `colnames()` command, and then did one last check with the `compare_df_cols()` command as shown below.
+```Rscript
+compare_df_cols(jan_2022, feb_2022, mar_2022, apr_2022, may_2022, 
+                jun_2022, jul_2022, aug_2022, sep_2022, oct_2022,
+                nov_2022, dec_2022)
+```
