@@ -110,3 +110,19 @@ trips_2022$tripduration <- difftime(trips_2022$ended_at,
                                     trips_2022$started_at, units = "min")
 trips_2022$tripduration <- as.numeric(as.character(trips_2022$tripduration))
 ```
+I did the same to find the month and day of each trip, using the `started_at` variable.
+```Rscript
+trips_2022$trip_month_num <- format(as.Date(trips_2022$started_at), "%m")
+trips_2022$trip_month_num <- as.numeric(as.character(trips_2022$trip_month_num))
+trips_2022$trip_month <- month.abb[trips_2022$trip_month_num]
+ 
+trips_2022$trip_day_num <- format(as.Date(trips_2022$started_at), "%d")
+trips_2022$trip_day_num <- as.numeric(as.character(trips_2022$trip_day_num))
+trips_2022$trip_day <- wday(trips_2022$started_at, label=TRUE)
+```
+I then began cleaning the data. First, I removed any rows that contained null or no values, as well as any with a negative or zero trip duration.
+```Rscript
+trips_2022_copy <- drop_na(trips_202
+trips_2022_copy <- filter(trips_2022_copy, end_station_name != "")
+trips_2021_copy <- filter(trips_2021_copy, start_station_name != "")
+```
