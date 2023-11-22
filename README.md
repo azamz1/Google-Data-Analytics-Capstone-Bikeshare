@@ -120,7 +120,7 @@ trips_2022$trip_day_num <- format(as.Date(trips_2022$started_at), "%d")
 trips_2022$trip_day_num <- as.numeric(as.character(trips_2022$trip_day_num))
 trips_2022$trip_day <- wday(trips_2022$started_at, label=TRUE)
 ```
-I then began cleaning the data. First, I removed any rows that contained null or no values, as well as any with a negative or zero trip duration.
+I then began cleaning the data. First, I removed any rows that contained null or no values, as well as any with a negative or zero trip duration. After these four lines, our dataframe was reduced to 4,369,052 rows
 ```Rscript
 trips_2022_copy <- drop_na(trips_2022)
 trips_2022_copy <- filter(trips_2022_copy, end_station_name != "")
