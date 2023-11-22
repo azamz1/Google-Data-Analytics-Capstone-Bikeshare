@@ -44,4 +44,19 @@ This is public data that you can use to explore how different customer types are
 
 There are 12 files with naming convention of YYYYMM-divvy-tripdata (with the exception of September 2022, which has 202209-divvy-publictripdata.csv) and each file includes information for one month, such as the ride id, bike type, start time, end time, start station, end station, start location, end location, and whether the rider is a member or not. The corresponding column names are ride_id, rideable_type, started_at, ended_at, start_station_name, start_station_id, end_station_name, end_station_id, start_lat, start_lng, end_lat, end_lng and member_casual.
 
+The following files were used:
+
+- 202201-divvy-tripdata.csv
+- 202202-divvy-tripdata.csv
+- 202203-divvy-tripdata.csv
+- 202204-divvy-tripdata.csv
+- 202205-divvy-tripdata.csv
+- 202206-divvy-tripdata.csv
+- 202207-divvy-tripdata.csv
+- 202208-divvy-tripdata.csv
+- 202209-divvy-publictripdata.csv
+- 202210-divvy-tripdata.csv
+- 202211-divvy-tripdata.csv
+- 202212-divvy-tripdata.csv
+
 # Process
