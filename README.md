@@ -39,3 +39,7 @@ Moreno has assigned you the first question to answer: How do annual members and 
 # Prepare
 
 From [divvy-tripdata](https://divvy-tripdata.s3.amazonaws.com/index.html), I used trip data from January 2022 to December 2022. The data has been made available by Motivate International Inc. under this [license](https://divvybikes.com/data-license-agreement).
+
+This is public data that you can use to explore how different customer types are using Cyclistic bikes. But note that data-privacy issues prohibit you from using riders’ personally identifiable information. This means that you won’t be able to connect pass purchases to credit card numbers to determine if casual riders live in the Cyclistic service area or if they have purchased multiple single passes.
+
+There are 12 files with naming convention of YYYYMM-divvy-tripdata (with the exception of September 2022, which has 202209-divvy-publictripdata.csv) and each file includes information for one month, such as the ride id, bike type, start time, end time, start station, end station, start location, end location, and whether the rider is a member or not. The corresponding column names are ride_id, rideable_type, started_at, ended_at, start_station_name, start_station_id, end_station_name, end_station_id, start_lat, start_lng, end_lat, end_lng and member_casual.
