@@ -127,3 +127,7 @@ trips_2022_copy <- filter(trips_2022_copy, end_station_name != "")
 trips_2021_copy <- filter(trips_2021_copy, start_station_name != "")
 trips_2022_copy <- filter(trips_2022_copy, tripduration > 0)
 ```
+# Analyze
+
+## Expected Deliverable
+- A summary of your analysis
