@@ -82,3 +82,19 @@ compare_df_cols(jan_2022, feb_2022, mar_2022, apr_2022, may_2022,
                 jun_2022, jul_2022, aug_2022, sep_2022, oct_2022,
                 nov_2022, dec_2022)
 ```
+```
+          column_name  jan_2022  feb_2022  mar_2022  apr_2022  may_2022  jun_2022  jul_2022  aug_2022  sep_2022  oct_2022  nov_2022  dec_2022
+1             end_lat   numeric   numeric   numeric   numeric   numeric   numeric   numeric   numeric   numeric   numeric   numeric   numeric
+2             end_lng   numeric   numeric   numeric   numeric   numeric   numeric   numeric   numeric   numeric   numeric   numeric   numeric
+3      end_station_id character character character character character character character character character character character character
+4    end_station_name character character character character character character character character character character character character
+5            ended_at character character character character character character character character character character character character
+6       member_casual character character character character character character character character character character character character
+7             ride_id character character character character character character character character character character character character
+8       rideable_type character character character character character character character character character character character character
+9           start_lat   numeric   numeric   numeric   numeric   numeric   numeric   numeric   numeric   numeric   numeric   numeric   numeric
+10          start_lng   numeric   numeric   numeric   numeric   numeric   numeric   numeric   numeric   numeric   numeric   numeric   numeric
+11   start_station_id character character character character character character character character character character character character
+12 start_station_name character character character character character character character character character character character character
+13         started_at character character character character character character character character character character character character
+```
