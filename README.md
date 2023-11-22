@@ -71,4 +71,8 @@ The following files were used:
 # Process
 
 ## Expected Deliverable
-- A description of all data sources used
+- Documentation of any manipulation & cleaning of data
+
+## Deliverable
+For the cleaning process, I used R. It has a wide range of tools for data manipulation and transformation. The dplyr packages, for instance, offer a convenient and expressive syntax for filtering, summarizing, and reshaping data, which can be advantageous for certain data processing tasks.
+
