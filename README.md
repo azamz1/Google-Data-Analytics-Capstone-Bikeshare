@@ -98,7 +98,7 @@ compare_df_cols(jan_2022, feb_2022, mar_2022, apr_2022, may_2022,
 12 start_station_name character character character character character character character character character character character character
 13         started_at character character character character character character character character character character character character
 ```
-After which I then combined all the individual dataframes into one large one.
+After which I then combined all the individual dataframes into one larger dataframe, with 5,667,717 rows.
 ```Rscript
 trips_2022 <- bind_rows(jan_2022, feb_2022, mar_2022, apr_2022, may_2022, 
                         jun_2022, jul_2022, aug_2022, sep_2022, oct_2022,
@@ -122,7 +122,8 @@ trips_2022$trip_day <- wday(trips_2022$started_at, label=TRUE)
 ```
 I then began cleaning the data. First, I removed any rows that contained null or no values, as well as any with a negative or zero trip duration.
 ```Rscript
-trips_2022_copy <- drop_na(trips_202
+trips_2022_copy <- drop_na(trips_2022)
 trips_2022_copy <- filter(trips_2022_copy, end_station_name != "")
 trips_2021_copy <- filter(trips_2021_copy, start_station_name != "")
+trips_2022_copy <- filter(trips_2022_copy, tripduration > 0)
 ```
