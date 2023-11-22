@@ -35,3 +35,7 @@ The main business task is to develop a marketing strategy to convert casual ride
 3. How can Cyclistic use digital media to influence casual riders to become members?
 
 Moreno has assigned you the first question to answer: How do annual members and casual riders use Cyclistic bikes differently?
+
+# Prepare
+
+From [divvy-tripdata](https://divvy-tripdata.s3.amazonaws.com/index.html), I used trip data from January 2022 to December 2022. The data has been made available by Motivate International Inc. under this [license](https://divvybikes.com/data-license-agreement).
