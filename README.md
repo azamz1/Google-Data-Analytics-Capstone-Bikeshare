@@ -227,3 +227,6 @@ Moving onto Tableau, we find several other possible insights for marketing to us
 
 We also see that, while casual riders fluctuate throughout the week in terms of numbers, they consistently take longer trips than members during all days of the week, reaffirming the initial point about average trip duration by customer type.
 ![Average trip length (min) per week day, by rider type (2022)](https://github.com/azamz1/Google-Data-Analytics-Capstone/assets/37313814/edb24d2e-4a4a-4e47-a6d3-c12914423be0)
+
+We also see that members generally did not used docked bikes, and that classic bikes were popular among both customer types.
+![Number of rides per bike type per month, by customer type (2022)](https://github.com/azamz1/Google-Data-Analytics-Capstone/assets/37313814/fdce8035-3e60-4c95-b7b3-c435635442b4)
