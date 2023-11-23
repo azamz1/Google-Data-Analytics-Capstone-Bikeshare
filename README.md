@@ -145,3 +145,4 @@ trips_2022_copy %>%
 1 casual         1758047       24.0
 2 member         2611005       12.5
 ```
+![Amount of total rides by type](https://github.com/azamz1/Google-Data-Analytics-Capstone/assets/37313814/3aff0f97-26ff-49cb-896a-c9201bfc3c5f)
