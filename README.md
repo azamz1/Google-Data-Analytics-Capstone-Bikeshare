@@ -127,10 +127,11 @@ trips_2022_copy <- filter(trips_2022_copy, end_station_name != "")
 trips_2021_copy <- filter(trips_2021_copy, start_station_name != "")
 trips_2022_copy <- filter(trips_2022_copy, tripduration > 0)
 ```
-# Analyze
+# Analyze & Share
 
 ## Expected Deliverable
 - A summary of your analysis
+- Supporting visualizations and key findings
 
 ## Deliverable
 
@@ -221,9 +222,5 @@ trips_2022_copy %>%
 ```
 ![Top 10 most popular start stations for casual riders (2022)](https://github.com/azamz1/Google-Data-Analytics-Capstone/assets/37313814/ea288d52-1827-4b6a-80b4-04324daa7ca9)
 ![Top 10 most popular end stations for riders, by customer type (2022)](https://github.com/azamz1/Google-Data-Analytics-Capstone/assets/37313814/e6fc63f8-5c2f-4b8c-865b-f3b2fd503cee)
-
-# Share
-
-## Deliverable
 
 [Tableau Visualizations](https://public.tableau.com/views/BikeShareData_Cleaned/Sheet1?:language=en-US&:display_count=n&:origin=viz_share_link)
