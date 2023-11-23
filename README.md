@@ -145,6 +145,7 @@ trips_2022_copy %>%
 ![Amount of total rides by type](https://github.com/azamz1/Google-Data-Analytics-Capstone/assets/37313814/3aff0f97-26ff-49cb-896a-c9201bfc3c5f)
 ![Average trip duration by rider type](https://github.com/azamz1/Google-Data-Analytics-Capstone/assets/37313814/2d8f6ed1-8320-4ef9-9918-ded392469d15)
 
+We also find that, on a weekly basis, casual rider numbers tend to peak during the weekend, a phenomena that is reversed for members.  
 ```Rscript
 trips_2022_copy %>%
   group_by(member_casual, trip_day) %>%
