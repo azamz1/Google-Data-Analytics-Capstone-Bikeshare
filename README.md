@@ -169,7 +169,7 @@ trips_2022_copy %>%
 13 casual        Sat        367310       26.8
 14 member        Sat        338255       14.0
 ```
-![Average trip duration by rider type](https://github.com/azamz1/Google-Data-Analytics-Capstone/assets/37313814/0075e4b8-e155-474a-9cad-5000a59e7ff2)
+![Number of rides per day of the week, by customer type (2022)](https://github.com/azamz1/Google-Data-Analytics-Capstone/assets/37313814/45996b5e-fb0f-44de-9b6c-d909d039ec91)
 
 ```Rscript
 trips_2022_copy %>% 
