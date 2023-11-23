@@ -244,6 +244,8 @@ However, we find that docked bikes, despite having fewer ridership numbers, tend
 ## Deliverable
 Going through the data and insights shared earlier, there are several possible avenues that mrketing can pursue to convice casual riders to subscribe for an annual membership.
 
-1. Focus on marketing annual memberships to casual riders during May, June, and July, when their numbers peak. This could include anything from promotion discounts (e.g. buy 1 year membership, get 1 month free), or possibly referal programs, to increase ridership during peak months. In addition, offering weekday discount prices might incentivise casual riders to ride during the weekday, allowing marketing campaigns to have a greater impact throughout the week.
+1. Market annual memberships to casual riders during May, June, and July, when their numbers peak. This could include anything from promotion discounts (e.g. buy 1 year membership, get 1 month free), or possibly referal programs, to increase ridership during peak months. In addition, offering weekday discount prices might incentivise casual riders to ride during the weekday, allowing marketing campaigns to have a greater impact throughout the week.
 
-2. 
+2. Focus marketing campaigns at the following five stations: Streeter Dr & Grand Ave, DuSable Lake Shore Dr & Monroe St, Millennium Park, Michigan Ave & Oak St, and DuSable Lake Shore Dr & North Blvd. These are where the majority of casual rider trips begin or end, and focusing on them would allow us to maximize customer outreach.
+
+3.  
