@@ -131,3 +131,17 @@ trips_2022_copy <- filter(trips_2022_copy, tripduration > 0)
 
 ## Expected Deliverable
 - A summary of your analysis
+
+## Deliverable
+
+```Rscript
+trips_2022_copy %>%
+  group_by(member_casual) %>%
+  summarise(numRides = n(), tripLenAvg = mean(tripduration))
+```
+```
+ member_casual numRides tripLenAvg
+  <chr>            <int>      <dbl>
+1 casual         1758047       24.0
+2 member         2611005       12.5
+```
