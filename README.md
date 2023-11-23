@@ -244,4 +244,6 @@ However, we find that docked bikes, despite having fewer ridership numbers, tend
 ## Deliverable
 Going through the data and insights shared earlier, there are several possible avenues that mrketing can pursue to convice casual riders to subscribe for an annual membership.
 
-1. Focus on marketing during either
+1. Focus on marketing annual memberships to casual riders during May, June, and July, when their numbers peak. This could include anything from promotion discounts (e.g. buy 1 year membership, get 1 month free), or possibly referal programs, to increase ridership during peak months.
+
+2. 
