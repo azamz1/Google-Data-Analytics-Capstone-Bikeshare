@@ -130,6 +130,7 @@ trips_2022_copy <- filter(trips_2022_copy, tripduration > 0)
 
 ## Deliverable
 
+In analyzing the resultant dataframe in both R and Tableau, we can come to several conclusions that can assist us in developing a marketing strategy. We find that, despite making up approximately 43.79% of Cyclistic's customers, casual riders, on average, make trips that are up to twice as long as members.
 ```Rscript
 trips_2022_copy %>%
   group_by(member_casual) %>%
