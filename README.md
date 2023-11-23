@@ -219,3 +219,5 @@ trips_2022_copy %>%
 10 casual        Clark St & Lincoln Ave                12851
 # ℹ 1,501 more rows
 ```
+![Top 10 most popular start stations for casual riders (2022)](https://github.com/azamz1/Google-Data-Analytics-Capstone/assets/37313814/ea288d52-1827-4b6a-80b4-04324daa7ca9)
+![Top 10 most popular end stations for riders, by customer type (2022)](https://github.com/azamz1/Google-Data-Analytics-Capstone/assets/37313814/e6fc63f8-5c2f-4b8c-865b-f3b2fd503cee)
