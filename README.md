@@ -230,3 +230,6 @@ We also see that, while casual riders fluctuate throughout the week in terms of 
 
 We also see that members generally did not used docked bikes, and that classic bikes were popular among both customer types.
 ![Number of rides per bike type per month, by customer type (2022)](https://github.com/azamz1/Google-Data-Analytics-Capstone/assets/37313814/fdce8035-3e60-4c95-b7b3-c435635442b4)
+
+However, we find that docked bikes, despite having fewer ridership numbers, tended to be used for long trips.
+![Average trip length per rideable type per month, by customer type (2022)](https://github.com/azamz1/Google-Data-Analytics-Capstone/assets/37313814/cb897c5e-7163-4900-8357-c8b6ef94dd06)
