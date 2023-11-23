@@ -235,3 +235,8 @@ We also see that members generally did not used docked bikes, and that classic b
 
 However, we find that docked bikes, despite having fewer ridership numbers, tended to be used for long trips.
 ![Average trip length per rideable type per month, by customer type (2022)](https://github.com/azamz1/Google-Data-Analytics-Capstone/assets/37313814/cb897c5e-7163-4900-8357-c8b6ef94dd06)
+
+# Act
+
+## Expected Deliverable
+- Your top three recommendations based on your analysis
