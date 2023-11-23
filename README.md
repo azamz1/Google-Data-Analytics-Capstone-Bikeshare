@@ -172,3 +172,50 @@ trips_2022_copy %>%
 14 member        Sat        338255       14.0
 ```
 ![Average trip duration by rider type](https://github.com/azamz1/Google-Data-Analytics-Capstone/assets/37313814/0075e4b8-e155-474a-9cad-5000a59e7ff2)
+
+```Rscript
+trips_2022_copy %>% 
+  group_by(member_casual, start_station_name) %>% 
+  summarise(numRides = n()) %>% 
+  arrange(desc(numRides)) %>% 
+  filter(member_casual == "casual") %>% 
+  select(start_station_name, numRides)
+```
+```
+ member_casual start_station_name                 numRides
+   <chr>         <chr>                                 <int>
+ 1 casual        Streeter Dr & Grand Ave               55054
+ 2 casual        DuSable Lake Shore Dr & Monroe St     30261
+ 3 casual        Millennium Park                       23948
+ 4 casual        Michigan Ave & Oak St                 23760
+ 5 casual        DuSable Lake Shore Dr & North Blvd    22156
+ 6 casual        Shedd Aquarium                        19421
+ 7 casual        Theater on the Lake                   17332
+ 8 casual        Wells St & Concord Ln                 14833
+ 9 casual        Dusable Harbor                        13270
+10 casual        Clark St & Armitage Ave               12777
+# ℹ 1,444 more rows
+```
+```Rscript
+trips_2022_copy %>% 
+  group_by(member_casual, end_station_name) %>% 
+  summarise(numRides = n()) %>% 
+  arrange(desc(numRides)) %>% 
+  filter(member_casual == "casual") %>% 
+  select(end_station_name, numRides)
+```
+```
+ member_casual end_station_name                   numRides
+   <chr>         <chr>                                 <int>
+ 1 casual        Streeter Dr & Grand Ave               57803
+ 2 casual        DuSable Lake Shore Dr & Monroe St     28542
+ 3 casual        Millennium Park                       25673
+ 4 casual        Michigan Ave & Oak St                 25372
+ 5 casual        DuSable Lake Shore Dr & North Blvd    25304
+ 6 casual        Theater on the Lake                   18648
+ 7 casual        Shedd Aquarium                        18047
+ 8 casual        Wells St & Concord Ln                 14415
+ 9 casual        Clark St & Armitage Ave               13028
+10 casual        Clark St & Lincoln Ave                12851
+# ℹ 1,501 more rows
+```
