@@ -172,6 +172,7 @@ trips_2022_copy %>%
 ```
 ![Number of rides per day of the week, by customer type (2022)](https://github.com/azamz1/Google-Data-Analytics-Capstone/assets/37313814/45996b5e-fb0f-44de-9b6c-d909d039ec91)
 
+Other insights during our analysis with R show that, of all the stations that Cyclistic offers its services at, most casual riders tend to either start at, or end, their trips at the following five (in descending order): Streeter Dr & Grand Ave, DuSable Lake Shore Dr & Monroe St, Millennium Park, Michigan Ave & Oak St, and DuSable Lake Shore Dr & North Blvd
 ```Rscript
 trips_2022_copy %>% 
   group_by(member_casual, start_station_name) %>% 
