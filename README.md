@@ -144,8 +144,9 @@ trips_2022_copy %>%
 1 casual         1758047       24.0
 2 member         2611005       12.5
 ```
-![Amount of total rides by type](https://github.com/azamz1/Google-Data-Analytics-Capstone/assets/37313814/3aff0f97-26ff-49cb-896a-c9201bfc3c5f)
-![Average trip duration by rider type](https://github.com/azamz1/Google-Data-Analytics-Capstone/assets/37313814/2d8f6ed1-8320-4ef9-9918-ded392469d15)
+![Amount of total rides by type](https://github.com/azamz1/Google-Data-Analytics-Capstone-Bikeshare/assets/37313814/06efcdf9-48e3-467a-938d-ec699272eafe)
+![Average trip duration by rider type](https://github.com/azamz1/Google-Data-Analytics-Capstone-Bikeshare/assets/37313814/cac8ce6e-253d-467b-ba67-a5ac5bf4fb44)
+
 
 We also find that, on a weekly basis, casual rider numbers tend to peak during the weekend, a phenomena that is reversed for members.  
 ```Rscript
@@ -172,7 +173,7 @@ trips_2022_copy %>%
 13 casual        Sat        367310       26.8
 14 member        Sat        338255       14.0
 ```
-![Number of rides per day of the week, by customer type (2022)](https://github.com/azamz1/Google-Data-Analytics-Capstone/assets/37313814/45996b5e-fb0f-44de-9b6c-d909d039ec91)
+![Number of rides per day of the week, by customer type (2022)](https://github.com/azamz1/Google-Data-Analytics-Capstone-Bikeshare/assets/37313814/67d4b126-e43b-4fac-8e38-88f024357d84)
 
 Other insights during our analysis with R show that, of all the stations that Cyclistic offers its services at, most casual riders tend to either start at, or end, their trips at the following five (in descending order): Streeter Dr & Grand Ave, DuSable Lake Shore Dr & Monroe St, Millennium Park, Michigan Ave & Oak St, and DuSable Lake Shore Dr & North Blvd
 ```Rscript
@@ -221,20 +222,20 @@ trips_2022_copy %>%
 10 casual        Clark St & Lincoln Ave                12851
 # ℹ 1,501 more rows
 ```
-![Top 10 most popular start stations for casual riders (2022)](https://github.com/azamz1/Google-Data-Analytics-Capstone/assets/37313814/ea288d52-1827-4b6a-80b4-04324daa7ca9)
-![Top 10 most popular end stations for riders, by customer type (2022)](https://github.com/azamz1/Google-Data-Analytics-Capstone/assets/37313814/e6fc63f8-5c2f-4b8c-865b-f3b2fd503cee)
+![Top 10 most popular start stations for casual riders (2022)](https://github.com/azamz1/Google-Data-Analytics-Capstone-Bikeshare/assets/37313814/f6371bcd-67b4-4225-a0b1-00906c82a249)
+![Top 10 most popular end stations for riders, by customer type (2022)](https://github.com/azamz1/Google-Data-Analytics-Capstone-Bikeshare/assets/37313814/a75a03ff-e4b5-456d-9f3e-27af79407f08)
 
 Moving onto Tableau, we find several other possible insights for marketing to use, for example, that ridership numbers for both customer groups peak in the summer and peter off as the winter months approach.
-![Number of rides per month, by customer type (2022)](https://github.com/azamz1/Google-Data-Analytics-Capstone/assets/37313814/b508854c-5345-4d64-806f-06f2b8e9a099)
+![Number of rides per month, by customer type (2022)](https://github.com/azamz1/Google-Data-Analytics-Capstone-Bikeshare/assets/37313814/7f5a9cb1-00b9-4f89-a0c6-c9c045ab7d80)
 
 We also see that, while casual riders fluctuate throughout the week in terms of numbers, they consistently take longer trips than members during all days of the week, reaffirming the initial point about average trip duration by customer type.
-![Average trip length (min) per week day, by rider type (2022)](https://github.com/azamz1/Google-Data-Analytics-Capstone/assets/37313814/edb24d2e-4a4a-4e47-a6d3-c12914423be0)
+![Average trip length (min) per week day, by rider type (2022)](https://github.com/azamz1/Google-Data-Analytics-Capstone-Bikeshare/assets/37313814/28dc7912-4fae-4a72-85ae-0089c4fbeee3)
 
 We also see that members generally did not used docked bikes, and that classic bikes were popular among both customer types.
-![Number of rides per bike type per month, by customer type (2022)](https://github.com/azamz1/Google-Data-Analytics-Capstone/assets/37313814/fdce8035-3e60-4c95-b7b3-c435635442b4)
+![Number of rides per bike type per month, by customer type (2022)](https://github.com/azamz1/Google-Data-Analytics-Capstone-Bikeshare/assets/37313814/f409d385-914f-4f2b-a561-395a2aa1ebc6)
 
 However, we find that docked bikes, despite having fewer ridership numbers, tended to be used for long trips.
-![Average trip length per rideable type per month, by customer type (2022)](https://github.com/azamz1/Google-Data-Analytics-Capstone/assets/37313814/cb897c5e-7163-4900-8357-c8b6ef94dd06)
+![Average trip length per rideable type per month, by customer type (2022)](https://github.com/azamz1/Google-Data-Analytics-Capstone-Bikeshare/assets/37313814/c024fed5-81c0-4ffd-9ebd-efcf239a3712)
 
 # Act
 
