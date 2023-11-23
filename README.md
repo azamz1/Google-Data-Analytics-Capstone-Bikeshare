@@ -146,3 +146,28 @@ trips_2022_copy %>%
 2 member         2611005       12.5
 ```
 ![Amount of total rides by type](https://github.com/azamz1/Google-Data-Analytics-Capstone/assets/37313814/3aff0f97-26ff-49cb-896a-c9201bfc3c5f)
+
+```Rscript
+trips_2022_copy %>%
+  group_by(member_casual, trip_day) %>%
+  summarise(numRides = n(), tripLenAvg = mean(tripduration)) %>%
+  arrange(trip_day)
+```
+```
+ member_casual trip_day numRides tripLenAvg
+   <chr>         <ord>       <int>      <dbl>
+ 1 casual        Sun        301278       27.2
+ 2 member        Sun        297707       13.9
+ 3 casual        Mon        210746       24.8
+ 4 member        Mon        375151       12.0
+ 5 casual        Tue        196367       21.4
+ 6 member        Tue        411226       11.8
+ 7 casual        Wed        203568       20.7
+ 8 member        Wed        412775       11.8
+ 9 casual        Thu        229993       21.4
+10 member        Thu        415862       12.0
+11 casual        Fri        248785       22.4
+12 member        Fri        360029       12.2
+13 casual        Sat        367310       26.8
+14 member        Sat        338255       14.0
+```
