@@ -244,4 +244,4 @@ However, we find that docked bikes, despite having fewer ridership numbers, tend
 ## Deliverable
 Going through the data and insights shared earlier, there are several possible avenues that mrketing can pursue to convice casual riders to subscribe for an annual membership.
 
-1. 
+1. Focus on marketing during either
